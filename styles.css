@@ -4,6 +4,20 @@ body {
   padding: 0;
   background: #f4f4f4;
 }
+header {
+  text-align: center;
+  padding: 20px;
+}
+
+header h1 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+header p {
+  margin: 5px 0;
+  font-size: 1.1em;
+}
 
 h1 {
   text-align: center;
@@ -45,7 +59,7 @@ h1 {
 }
 
 button {
-  background: #c70039;
+  background: #5D8099;
   color: white;
   border: none;
   padding: 8px 12px;
@@ -140,3 +154,4 @@ button:hover {
   cursor: pointer;
   z-index: 10;
 }
+
