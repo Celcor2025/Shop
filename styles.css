@@ -2,7 +2,7 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background: #8DF0C4;
+  background: #C9F0DD;
 }
 header {
   text-align: center;
@@ -22,7 +22,7 @@ header p {
 h1 {
   text-align: center;
   padding: 20px;
-  background: #935F9E;
+  background: #C18FCC;
   color: white;
 }
 
@@ -154,5 +154,6 @@ button:hover {
   cursor: pointer;
   z-index: 10;
 }
+
 
 
