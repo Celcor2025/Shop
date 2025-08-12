@@ -1,26 +1,27 @@
 const productos = [
-  { nombre: "Desodorante Avon", precio: 9.99, imagen: "img/Avondeso.jpeg" },
-  { nombre: "Banishing", precio: 19.99, imagen: "img/Banisin.jpeg" },
-  { nombre: "Baume", precio: 14.99, imagen: "img/Baume.jpeg" },
-  { nombre: "Jabón piel sensible", precio: 6.99, imagen: "img/Bebe.jpeg" },
-  { nombre: "Perfume para Bebé", precio: 11.99, imagen: "img/Bebe1.jpeg" },
-  { nombre: "Blossom", precio: 13.99, imagen: "img/Blossom.jpeg" },
-  { nombre: "Crema para el cuerpo", precio: 7.99, imagen: "img/Bodycream.jpeg" },
-  { nombre: "Colonia Chrome", precio: 15.99, imagen: "img/Chrome.jpeg" },
-  { nombre: "Crema de día", precio: 5.99, imagen: "img/Cremadia.jpeg" },
-  { nombre: "Delineador", precio: 8.99, imagen: "img/Delineador.jpeg" },
-  { nombre: "Desodorantes", precio: 12.99, imagen: "img/Desodorantes.jpeg" },
-  { nombre: "Loción para Caballero", precio: 10.99, imagen: "img/King.jpeg" },
-  { nombre: "Perfume Unisex", precio: 9.49, imagen: "img/Kiwiunisex.jpeg" },
-  { nombre: "Agua de Tocador", precio: 18.99, imagen: "img/Legend.jpeg" },
-  { nombre: "Eau de Toilette", precio: 16.49, imagen: "img/Ride.jpeg" },
-  { nombre: "Aceite para Cuerpo", precio: 13.49, imagen: "img/Royal.jpeg" },
-  { nombre: "Agua de tocador para niño", precio: 8.49, imagen: "img/Skid.jpeg" },
-  { nombre: "Pour Homme", precio: 6.49, imagen: "img/Sport.jpeg" },
+  { nombre: "Desodorante Avon each ", precio: 4.99, imagen: "img/Avondeso.jpeg" },
+  { nombre: "Banishing Cream", precio: 10.99, imagen: "img/Banisin.jpeg" },
+  { nombre: "Baume each", precio: 4.99, imagen: "img/Baume.jpeg" },
+  { nombre: "Jabón piel sensible", precio: 8.00, imagen: "img/Bebe.jpeg" },
+  { nombre: "Perfume para Bebé", precio: 29.00, imagen: "img/Bebe1.jpeg" },
+  { nombre: "Blossom 6.9 Oz", precio: 23.00, imagen: "img/Blossom.jpeg" },
+  { nombre: "Crema para el cuerpo Kiwi 8.11 Oz", precio: 18.00, imagen: "img/Bodycream.jpeg" },
+  { nombre: "Colonia Chrome 3.3 Oz", precio: 44.00, imagen: "img/Chrome.jpeg" },
+  { nombre: "Crema de día Skin 1.7 Oz", precio: 42.99, imagen: "img/Cremadia.jpeg" },
+  { nombre: "Delineador Liquido", precio: 23.00, imagen: "img/Delineador.jpeg" },
+  { nombre: "Desodorantes", precio: 10.90, imagen: "img/Desodorantes.jpeg" },
+  { nombre: "Loción para Caballero", precio: 59.50, imagen: "img/King.jpeg" },
+  { nombre: "Perfume Unisex Kiwi", precio: 55.00, imagen: "img/Kiwiunisex.jpeg" },
+  { nombre: "Agua de Tocador Legend", precio: 46.00, imagen: "img/Legend.jpeg" },
+  { nombre: "Eau de Toilette Ride", precio: 45.00, imagen: "img/Ride.jpeg" },
+  { nombre: "Aceite para Cuerpo Almond 16.9 Oz", precio: 49.50, imagen: "img/Royal.jpeg" },
+  { nombre: "Aceite para Cuerpo Olive 6.7 Oz", precio: 32.00, imagen: "img/Olive.jpeg" },
+  { nombre: "Agua de tocador para niño", precio: 30.00, imagen: "img/Skid.jpeg" },
+  { nombre: "Pour Homme", precio: 45.00, imagen: "img/Sport.jpeg" },
   { nombre: "Crema extraprotectora", precio: 14.49, imagen: "img/terapia1.jpeg" },
-  { nombre: "Crema para manos", precio: 17.99, imagen: "img/terapia2.jpeg" },
-  { nombre: "Loción corporal", precio: 17.99, imagen: "img/Vesen.jpeg" },
-  { nombre: "Loción Master", precio: 17.99, imagen: "img/Yitsu.jpeg" }
+  { nombre: "Crema para manos", precio: 5.99, imagen: "img/terapia2.jpeg" },
+  { nombre: "Loción corporal", precio: 21.00, imagen: "img/vesen.jpeg" },
+  { nombre: "Loción Master 3.3 Oz", precio: 46.00, imagen: "img/Yitsu.jpeg" }
 ];
 
 const catalogo = document.getElementById("catalogo");
@@ -163,4 +164,5 @@ window.addEventListener("keydown", function (e) {
   }
 
 });
+
 
