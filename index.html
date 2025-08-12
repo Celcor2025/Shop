@@ -5,13 +5,52 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Tienda de María</title>
   <link rel="stylesheet" href="styles.css">
+
+  <style>
+    footer {
+      background-color: #BAA9A9;
+      padding: 20px;
+      text-align: center;
+    }
+
+    footer p {
+      margin: 0;
+      font-size: 16px;
+      color: #290303;
+    }
+
+    #boton-pago {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+      margin-top: 20px;
+    }
+
+    #boton-pago p {
+      font-size: 14px;
+      color: #555;
+      text-align: center;
+      max-width: 300px;
+    }
+
+    #boton-pago button {
+      padding: 10px 20px;
+      background-color: #c5007d;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  </style>
 </head>
 <body>
 
   <header>
     <h1>🌸 Bienvenido a la tienda de Mary</h1>
     <p>Haz clic en los productos y agrégalos a tu carrito</p> 
-    <p>Productos en stock de entrega inmediata en Grandview, WA </p>  <p>Contamos con catálogos de: Jafra, Avon y Zermat</p> 
+    <p>Productos en stock de entrega inmediata en Grandview, WA</p>
+    <p>Contamos con catálogos de: Jafra, Avon y Zermat</p>
   </header>
 
   <main>
@@ -21,14 +60,15 @@
       <h2>🛒 Tu carrito</h2>
       <ul id="lista-carrito"></ul>
       <p id="total">Total: $0.00</p>
-      <div id="boton-pago">
-  <a id="whatsapp-btn" target="_blank">📱 Confirmar pedido por WhatsApp</a>
-</div>
-<div id="boton-pago">
-  <p>No se aplicará ningún pago ni se pedirán datos, solo son instrucciones para pagar por Zelle.</p>
-  <button id="pagar-btn">💳 Pagar ahora</button>
-</div>
 
+      <div id="boton-pago">
+        <a id="whatsapp-btn" target="_blank">📱 Confirmar pedido por WhatsApp</a>
+      </div>
+
+      <div id="boton-pago">
+        <p>No se aplicará ningún pago ni se pedirán datos, solo son instrucciones para pagar por Zelle.</p>
+        <button id="pagar-btn">💳 Pagar ahora</button>
+      </div>
     </aside>
   </main>
 
@@ -46,53 +86,8 @@
     <p>&copy; 2025 The Avon Jafra & Zermat Company</p>
   </footer>
 
-  <style>
-  footer {
-    background-color: #BAA9A9; /* Cambia el color si quieres otro */
-    padding: 20px;
-    text-align: center;
-  }
-<style>
-  #boton-pago {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px; /* Espacio entre texto y botón */
-    margin-top: 20px;
-  }
-
-  #boton-pago p {
-    font-size: 14px;
-    color: #555;
-    text-align: center;
-    max-width: 300px;
-  }
-
-  #boton-pago button {
-    padding: 10px 20px;
-    background-color: #c5007d;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-    
-</style>
-  footer p {
-    margin: 0;
-    font-size: 16px;
-    color: #290303; /* Color del texto */
-  }
-</style>
   <script src="script.js"></script>
 </body>
 </html>
-
-
-
-
-
-
-
 
 
