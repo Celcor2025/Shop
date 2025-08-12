@@ -19,7 +19,7 @@ const productos = [
   { nombre: "Pour Homme", precio: 6.49, imagen: "img/Sport.jpeg" },
   { nombre: "Crema extraprotectora", precio: 14.49, imagen: "img/terapia1.jpeg" },
   { nombre: "Crema para manos", precio: 17.99, imagen: "img/terapia2.jpeg" },
-  { nombre: "Loción corporal", precio: 17.99, imagen: "img/vesen.jpeg" },
+  { nombre: "Loción corporal", precio: 17.99, imagen: "img/Vesen.jpeg" },
   { nombre: "Loción Master", precio: 17.99, imagen: "img/Yitsu.jpeg" }
 ];
 
@@ -161,4 +161,5 @@ window.addEventListener("keydown", function (e) {
   if (e.key === "Escape") {
     cerrarModal();
   }
+
 });
