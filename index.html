@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tienda Avon de María</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header>
+    <h1>🌸 Bienvenido a la tienda Avon de María</h1>
+    <p>Haz clic en los productos para verlos en grande o agrégalos al carrito</p>
+  </header>
+
+  <main>
+    <section id="catalogo"></section>
+
+    <aside id="carrito">
+      <h2>🛒 Tu carrito</h2>
+      <ul id="lista-carrito"></ul>
+      <p id="total">Total: $0.00</p>
+      <div id="boton-pago">
+  <a id="whatsapp-btn" target="_blank">📱 Confirmar pedido por WhatsApp</a>
+</div>
+<div id="boton-pago">
+  <button id="pagar-btn">💳 Pagar ahora</button>
+</div>
+
+    </aside>
+  </main>
+
+  <!-- Modal de imagen -->
+  <div id="modal" class="modal-contenido">
+    <span class="cerrar" onclick="cerrarModal()">&times;</span>
+    <div class="modal-contenido">
+      <img id="imgGrande" src="" alt="">
+      <h3 id="modalNombre"></h3>
+      <p id="modalPrecio"></p>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 The Avon Company</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
