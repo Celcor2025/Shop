@@ -136,10 +136,10 @@ pagarBtn.addEventListener("click", () => {
   });
 
   const totalCompra = carrito.reduce((acc, item) => acc + item.precio * item.cantidad, 0);
-  const impuestos = totalCompra * 0.08;
+  const impuestos = totalCompra * 0.082;
   const totalFinal = totalCompra + impuestos;
 
-  resumen += `\nSubtotal: $${totalCompra.toFixed(2)}\nImpuestos (8%): $${impuestos.toFixed(2)}\nTotal a pagar: $${totalFinal.toFixed(2)}\n\n`;
+  resumen += `\nSubtotal: $${totalCompra.toFixed(2)}\nImpuestos (8.2%): $${impuestos.toFixed(2)}\nTotal a pagar: $${totalFinal.toFixed(2)}\n\n`;
   resumen += "📨 Por favor realiza tu pago a Zelle al número: +1 509 830 0959\n";
   resumen += "Luego envía tu comprobante por WhatsApp a María.\n\n¡Gracias por tu compra, puede recogerlos en la dirección que se le proporcionará! 🙌";
 
@@ -164,5 +164,6 @@ window.addEventListener("keydown", function (e) {
   }
 
 });
+
 
 
