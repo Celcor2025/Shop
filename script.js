@@ -165,6 +165,13 @@ window.addEventListener("keydown", function (e) {
 
 });
 
+// Activar música al hacer clic en cualquier parte de la página
+window.addEventListener("click", () => {
+  const music = document.getElementById("bg-music");
+  music.play();
+});
+
+
 
 
 
