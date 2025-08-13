@@ -99,7 +99,7 @@ button:hover {
   width: 100%;
   height: 100%;
   background: rgba(0,0,0,0.7);
-  display: none;
+  display: flex; /* ✅ necesario para centrar el modal */
   justify-content: center;
   align-items: center;
   z-index: 999;
@@ -109,20 +109,12 @@ button:hover {
   position: relative;
   background: white;
   padding: 20px;
-  border-radius: 8px;
-  text-align: center;
-  max-width: 400px;
-}
-
-#modal-content {
-  position: relative;
-  background: white;
-  padding: 20px;
   border-radius: 12px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8); /* Sombra elegante */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 1); /* sombra más sólida */
   text-align: center;
   max-width: 400px;
   width: 90%;
+  z-index: 1000; /* asegúrate que esté encima del fondo */
 }
 
 #imgGrande {
@@ -165,6 +157,7 @@ button:hover {
   cursor: pointer;
   z-index: 10;
 }
+
 
 
 
